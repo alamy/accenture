@@ -1,0 +1,27 @@
+form {
+    margin-top: 3%;
+    border: 1px solid #cecece;
+    padding: 30px;
+    background: #fff;
+    box-shadow: 2px 2px 5px #cecece;
+  }
+ 
+ .login {
+   
+    box-shadow: 2px 2px 3px #cecece;
+  }
+  .content {
+    display: flex;
+    margin: 32px auto;
+    padding: 0 16px;
+    max-width: 960px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .top-login {
+    border:1px solid red;
+    height: 80px;
+    text-align: center;
+    padding: 20px 0;
+    background: red;
+  }

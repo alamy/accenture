@@ -1,0 +1,22 @@
+<button (click)="exportar()">enviar</button>
+
+<input type="data" name="data" />
+<div class="col" id="table">
+    <table class="table table-bordered" >
+        <thead class="thead-dark"> 
+          <tr>
+            <th scope="col"  *ngFor="let l of legend">{{l.name}}</th>
+           
+          </tr>
+        </thead>
+        <tbody  class="thead-light">
+          <tr  *ngFor="let l of lista">
+            <th scope="row">{{l.name}}</th>
+            <th scope="row">{{l.age}}</th>
+            <th scope="row">{{l.average}}</th>
+            <th scope="row">{{l.description}}</th>
+          </tr>
+         
+        </tbody>
+      </table>
+    </div>
